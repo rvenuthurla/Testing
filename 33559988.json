@@ -1,0 +1,58 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : null,
+    "version" : "1.0.0",
+    "title" : null,
+    "termsOfService" : null,
+    "contact" : null,
+    "license" : null
+  },
+  "host" : "jsonplaceholder.typicode.com",
+  "basePath" : "/",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/posts" : {
+      "get" : {
+        "tags" : [ "33559988" ],
+        "summary" : null,
+        "description" : null,
+        "operationId" : "33559988",
+        "produces" : [ "application/json" ],
+        "consumes" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/33559988"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "33559988" : {
+      "properties" : {
+        "userId" : {
+          "type" : "number",
+          "format" : "int32"
+        },
+        "id" : {
+          "type" : "number",
+          "format" : "int32"
+        },
+        "title" : {
+          "type" : "string"
+        },
+        "body" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
