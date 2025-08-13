@@ -1,0 +1,29 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : null,
+    "version" : "1.0.0",
+    "title" : null,
+    "termsOfService" : null,
+    "contact" : null,
+    "license" : null
+  },
+  "host" : "jsonplaceholder.typicode.com",
+  "basePath" : "/",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/posts" : {
+      "get" : {
+        "tags" : [ "00114477" ],
+        "summary" : null,
+        "description" : null,
+        "operationId" : "00114477",
+        "produces" : [ "application/xml" ],
+        "consumes" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : { }
+      }
+    }
+  },
+  "definitions" : { }
+}
